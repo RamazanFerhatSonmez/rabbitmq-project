@@ -1,0 +1,24 @@
+{
+  "name": "rabbitmq-project",
+  "version": "1.0.0",
+  "description": "rabbit message queue with docker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "consumer": "node consumer.js",
+    "publisher": "node publisher.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RamazanFerhatSonmez/rabbitmq-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RamazanFerhatSonmez/rabbitmq-project/issues"
+  },
+  "homepage": "https://github.com/RamazanFerhatSonmez/rabbitmq-project#readme",
+  "dependencies": {
+    "amqplib": "^0.6.0"
+  }
+}
